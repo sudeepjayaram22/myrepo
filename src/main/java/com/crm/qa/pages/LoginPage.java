@@ -23,7 +23,7 @@ public class LoginPage extends TestBase {
 	WebElement signUpBtn;
 
 	@FindBy(xpath = "//img[contains(@class,'img-responsive')]")
-	WebElement crmLogo;
+	WebElement crmLogo; 
 
 	// Initializing the Page Objects:
 	public LoginPage() {
